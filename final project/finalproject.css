@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#app {
+    margin: 20px;
+}
+
+#seats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.booked {
+    background-color: #ff6666;
+    cursor: not-allowed;
+}
